@@ -5,8 +5,8 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 var stars = [], // Array that contains the stars
-  FPS = 60, // Frames per second
-  x = 100, // Number of stars
+  FPS = 40, // Frames per second
+  x = 150, // Number of stars
   mouse = {
     x: 0,
     y: 0
@@ -55,7 +55,7 @@ function draw() {
       }
     }
   }
-  ctx.lineWidth = 0.05;
+  ctx.lineWidth = 0.1;
   ctx.strokeStyle = "white";
   ctx.stroke();
 }
